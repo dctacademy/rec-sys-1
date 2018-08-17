@@ -22,8 +22,8 @@ def recommend():
 @app.route('/related', methods=['POST'])
 
 def related():
-    assignment_id = request.args.get('assignment_id')
-    related = implicit_model.similar_items(int(assignment_id), N=20)
+    submission_id = request.args.get('submission_id')
+    related = implicit_model.similar_items(int(submission_id), N=20)
     related = dict(related)
     related = {str(key): str(value) for key, value in related.items()}
     return json.dumps(related)
