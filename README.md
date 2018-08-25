@@ -2,7 +2,7 @@
 
 # Overview
 
-This project provides APIs for recommendation of assignments for a user based on implicit feedbacks and recommendation of assignments based on implicit relations using Machine Learning. The API serves for Alternating Least Squares algorithm and Bayesian Personalised Ranking algorithm.
+This project provides APIs for recommendation of assignments for a user based on implicit feedbacks and recommendation of assignments based on implicit relations using Machine Learning. The API serves for Alternating Least Squares algorithm and Bayesian Personalised Ranking algorithm. It is used on DCT Academy's ```http://code.dctacademy.com``` code platform
 
 # Dependencies
 
@@ -82,21 +82,20 @@ The API returns a JSON containing the list of Assignment IDs and their correlati
 
 * Sample Response:  
 ```
-
-
+{"80": "1.0", "124": "0.4352896", "33": "0.3462197", "50": "0.3163503", "75": "0.27723202", "102": "0.25381687", "27": "0.24722941", "37": "0.23291864", "74": "0.22682238", "62": "0.21501605"}
 ```
 
 # Credits
 
-[Vinod Agrawal](https://in.linkedin.com/in/vinod-agrawal-8020488)
-
-CTO, Faststream Technologies
+* [Aniruddha SG](https://www.linkedin.com/in/aniruddhasg/), Co Founder and Instructor, DCT Academy 
+* [Harish Nagasamudra](https://www.linkedin.com/in/harish-nagasamudra-a8512142/), Full Stack Engineer, DCT Academy 
 
 # License
 
-Copyright(c) 2018, [Faststream Technologies](https://www.faststreamtech.com)
+Copyright(c) 2018, [DCT Academy](https://www.dctacademy.com)
 
-Authors: 
+# Authors: 
 
-* [Sudhanva Narayana](https://www.sudhanva.in)
-* [Shreyas S](https://www.shreyas.im)
+* [Sudhanva Narayana](https://www.sudhanva.me)
+* [Aniruddha SG](https://www.dctacademy.com)
+* [Harish Nagasamudra](https://www.linkedin.com/in/harish-nagasamudra-a8512142/)
