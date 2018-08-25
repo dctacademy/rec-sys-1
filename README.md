@@ -1,23 +1,21 @@
 # Assignment Recommendation System using Collaborative Filtering for Implicit Feedbacks 
 
-# Overview
-
 This project provides APIs for recommendation of assignments for a user based on implicit feedbacks and recommendation of assignments based on implicit relations using Machine Learning. The API serves for [Alternating Least Squares](https://datasciencemadesimpler.wordpress.com/tag/alternating-least-squares/) algorithm and [Bayesian Personalised Ranking](https://arxiv.org/ftp/arxiv/papers/1205/1205.2618.pdf) algorithm. It is used on DCT Academy's ```http://code.dctacademy.com``` code platform
 
 # Dependencies
 
 * python 3.x 
-* numpy==1.x
-* pandas==0.2x
-* scipy==1.1.x
-* scikit-learn==0.19.x
-* statsmodels==0.9.x
-* Cython==0.28.x
-* Flask==1.x.x
-* gunicorn==19.x.x
-* implicit==0.3.x
-* requests==2.xx.x
-* CUDA==9.x.x (only if GPU)
+* numpy 1.x
+* pandas 0.2x
+* scipy 1.1.x
+* scikit-learn 0.19.x
+* statsmodels 0.9.x
+* Cython 0.28.x
+* Flask 1.x.x
+* gunicorn 19.x.x
+* implicit 0.3.x
+* requests 2.xx.x
+* CUDA 9.x.x (only if GPU)
 
 # Important Files and Folders
 
