@@ -1,6 +1,6 @@
 # Assignment Recommendation System using Collaborative Filtering for Implicit Feedbacks 
 
-This project provides APIs for recommendation of assignments for a user based on implicit feedbacks and recommendation of assignments based on implicit relations using Machine Learning. The API serves for [Alternating Least Squares](https://datasciencemadesimpler.wordpress.com/tag/alternating-least-squares/) algorithm and [Bayesian Personalised Ranking](https://arxiv.org/ftp/arxiv/papers/1205/1205.2618.pdf) algorithm. It is used on DCT Academy's ```http://code.dctacademy.com``` code platform
+This project provides APIs for recommendation of assignments for a user based on implicit feedbacks and recommendation of assignments based on implicit relations using Machine Learning. The API serves for [Alternating Least Squares](https://datasciencemadesimpler.wordpress.com/tag/alternating-least-squares/) algorithm and [Bayesian Personalised Ranking](https://arxiv.org/ftp/arxiv/papers/1205/1205.2618.pdf) algorithm. It is used on DCT Academy's http://code.dctacademy.com code platform
 
 # Dependencies
 
@@ -72,8 +72,8 @@ A simple http GET request can be sent to the follwing URL
     ```http://dct-ml-api.herokuapp.com/related?assignment_id=[id]&algo=['ALGO_NAME']&num=[n]``` where ```id``` is the Assignment ID (integer), ```'ALGO_NAME'``` is the algorithm (string), ```num``` is the number of recommendations required (integer)
 
 * Sample API Requests:  
-    ```http://dct-ml-api.herokuapp.com/related?assignment_id=10&algo=als&num=10```  
-    ```http://dct-ml-api.herokuapp.com/recommend?user_id=10&algo=bayes&num=10```
+    http://dct-ml-api.herokuapp.com/related?assignment_id=10&algo=als&num=10  
+    http://dct-ml-api.herokuapp.com/recommend?user_id=10&algo=bayes&num=10
 
 # Usage - Response - API
 
