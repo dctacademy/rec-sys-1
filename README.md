@@ -1,6 +1,6 @@
 # Assignment Recommendation System using Collaborative Filtering for Implicit Feedbacks 
 
-This project provides APIs for recommendation of assignments for a user based on implicit feedbacks and recommendation of assignments based on implicit relations using Machine Learning. The API serves for [Alternating Least Squares](https://datasciencemadesimpler.wordpress.com/tag/alternating-least-squares/) algorithm and [Bayesian Personalised Ranking](https://arxiv.org/ftp/arxiv/papers/1205/1205.2618.pdf) algorithm. It is used on DCT Academy's http://code.dctacademy.com code platform
+This project provides APIs for recommendation of assignments for a user based on implicit feedbacks and recommendation of assignments based on implicit relations using Machine Learning. The API serves for [Alternating Least Squares](https://datasciencemadesimpler.wordpress.com/tag/alternating-least-squares/) algorithm and [Bayesian Personalised Ranking](https://arxiv.org/ftp/arxiv/papers/1205/1205.2618.pdf) algorithm. It is used on [DCT Academy's](https://www.dctacademy.com) http://code.dctacademy.com code platform
 
 # Dependencies
 
@@ -66,10 +66,10 @@ A simple http GET request can be sent to the follwing URL
     2. ```bayes``` - Bayesian Personalised Ranking
 
 * For recommending assignments to a user:  
-    ```http://dct-ml-api.herokuapp.com/recommend?user_id=[id]&algo=['ALGO_NAME']&num=[n]``` where ```id``` is the User ID (integer), ```'ALGO_NAME'``` is the algorithm (string), ```num``` is the    number of recommendations required (integer) 
+    ```http://dct-ml-api.herokuapp.com/recommend?user_id=[id]&algo=['ALGO_NAME']&num=[n]``` where ```id``` is the User ID (integer), ```ALGO_NAME``` is the algorithm (string), ```num``` is the    number of recommendations required (integer) 
 
 * For finding related assignments:  
-    ```http://dct-ml-api.herokuapp.com/related?assignment_id=[id]&algo=['ALGO_NAME']&num=[n]``` where ```id``` is the Assignment ID (integer), ```'ALGO_NAME'``` is the algorithm (string), ```num``` is the number of recommendations required (integer)
+    ```http://dct-ml-api.herokuapp.com/related?assignment_id=[id]&algo=['ALGO_NAME']&num=[n]``` where ```id``` is the Assignment ID (integer), ```ALGO_NAME``` is the algorithm (string), ```num``` is the number of recommendations required (integer)
 
 * Sample API Requests:  
     http://dct-ml-api.herokuapp.com/related?assignment_id=10&algo=als&num=10  
@@ -77,7 +77,7 @@ A simple http GET request can be sent to the follwing URL
 
 # Usage - Response - API
 
-The API returns a JSON containing the list of Assignment IDs and their correlation with the reqeusted assingment or a user.
+The API returns a JSON containing the list of Assignment IDs and their correlation with the requested assingment or a user.
 
 * Sample API Response:  
 ```
@@ -96,5 +96,5 @@ Copyright(c) 2018, [DCT Academy](https://www.dctacademy.com)
 # Authors: 
 
 * [Sudhanva Narayana](https://www.sudhanva.me)
-* [Aniruddha SG](https://www.dctacademy.com)
+* [Aniruddha SG](https://www.linkedin.com/in/aniruddhasg/)
 * [Harish Nagasamudra](https://www.linkedin.com/in/harish-nagasamudra-a8512142/)
