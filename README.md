@@ -34,7 +34,7 @@ dct-ml
 |      └───app.py - Flask app serving requests
 │
 └───assets
-│      dct_original.sql - original data dump from postgres/prodcution
+│      dct_original.sql - original data dump fromhttps://github.com/dctacademy/rec-sys-1.git postgres/prodcution
 │      dct.sql - dump used to local model training and testing
 │      points.xlsx - Custom grading/confidence system
 │      table_columns.csv - tables and their attributes in the database for reference
